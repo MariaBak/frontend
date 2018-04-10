@@ -1,0 +1,1550 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.block 
+{
+    width: 960px;
+    margin: -190px auto 0;
+    position: relative;
+    z-index: 1;
+}
+
+/*.block:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+.navbar
+{
+    height:50px;
+    width: 100%;
+}
+
+.top_menu
+{
+    width: 960px;
+    height: 50px;
+    margin:0 auto;
+}
+
+.navbar li
+{
+    list-style: none;
+    float: left;
+    height: 50px;
+    font-family: 'Georgia', san-serif;
+    font-size: 19px;
+}
+
+.top_menu a
+{
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+    padding: 0 18px 0 48px;
+    color: #333333;
+}
+
+.first_menu
+{
+    background: url(../icon/about_me.png) no-repeat 21px 16px;
+    color: rgb(245,245,245);
+    margin-top:1px;
+    margin-left:0px;  
+}
+
+.about_me_link
+{
+    margin-left: -3px;
+}
+
+.first_menu:hover
+{
+    background: url(../icon/about_me_invers.png) no-repeat 21px 16px;
+    background-color: rgb(21,169,140);
+}
+
+.hobby_menu
+{
+    background: url(../icon/hobby_icon.png) no-repeat 21px 17px;
+    margin-left:2px;
+    margin-top:1px;
+}
+
+.hobby_menu:hover
+{
+    background: url(../icon/hobby_icon_invers.png) no-repeat 21px 17px;
+    background-color: #15a98c;
+}
+
+.film
+{
+    background: url(../icon/film_icon.png) no-repeat 21px 17px;
+    margin-top:1px;
+}
+
+.film:hover
+{
+    background: url(../icon/film_icon_invers.png) no-repeat 21px 17px;
+    background-color: #15a98c;
+}
+
+a:hover
+{
+    color: #fff;
+}
+
+.background_nature
+{
+    width:100%;
+    height: 400px;
+}
+
+.background_photo
+{
+    width: 100%;
+    height: 400px;
+}
+
+.background_nature:before
+{
+    content: "";
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    position:absolute;
+    opacity: 0.502;
+    z-index:1;
+}
+
+.block_one 
+{
+    width: 330px;
+    float: left;
+}
+
+.block_two 
+{
+    width: 570px;
+    float: right; 
+}
+
+.about_me_photo 
+{
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #132d35;
+}
+
+.masha_photo 
+{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.hobby 
+{
+    margin-top: 45px;
+}
+
+.hobby_title 
+{
+    margin-bottom: 21px;
+    margin-left:3px;
+}
+
+.hobby_list li,
+.info_list li
+{
+	font-size: 19px;
+	font-family: 'Georgia', sans-serif; 
+	color: rgb(85, 85, 85);
+	text-align: left;
+    margin: -1px 0 16px 20px;
+}
+
+.info
+{
+    margin-top: 49px;
+}
+
+.info_title 
+{
+    margin-bottom: 20px;
+}
+
+.hobby_title,
+.info_title 
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.blockquote 
+{
+    height: 350px;
+}
+
+.blockquote_text 
+{
+    font-size: 28px;
+    line-height: 42px;
+    color: #ffffff;
+    font-family: 'Georgia', sans-serif;
+    font-style: italic;
+    text-align: left;
+    margin-left: 3px;
+    margin-top: -12px;
+}
+
+.blockquote_author
+{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-family: 'Open Sans Semibold', sans-serif;
+    font-weight: 600;
+    line-height: 2.625;
+    text-align: left;
+    margin-top: 2px;
+    margin-left:7px;
+}
+
+.quote
+{
+    margin-top:37px;
+    margin-bottom: 82px;
+}
+
+.biography_line
+{
+    margin-bottom: 10px;
+}
+
+.biography 
+{
+    width: 570px;
+    text-align: left;
+    padding-bottom: 58px;
+    position: relative;
+}
+
+.biography_title 
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    
+}
+
+.line_photo 
+{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    margin-bottom: 40px;
+    margin-top: 31px;
+}
+
+.my_life 
+{
+    width: 570px;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: 'Georgia', sans-serif;
+    margin-top: -17px;
+}
+
+.study 
+{
+    margin-top: 0px;
+    margin-left:-1px;
+    position: relative;
+}
+
+.study_title 
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    margin-top:-16px;
+    font-weight:400;
+}
+
+.study_description 
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: 'Georgia', sans-serif;
+}
+
+.write_me 
+{
+    font-size: 19px;
+    line-height: 32px;
+    font-family: 'Georgia', sans-serif;
+    margin-top: 41px;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
+
+.write_me a 
+{
+    color: #15a98b;
+    line-height: 0;
+    border-bottom: 2px solid  #15a98b;
+    text-decoration: none;
+}
+
+.pointer 
+{
+    color: #15a98b;
+}
+
+.write_me a:hover 
+{
+    color: #098d72;
+}
+
+.pointer:hover
+{
+    color: #098d72;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+.container
+{
+    width: 100%;
+    margin-top: 59px;
+    background-color: #f9f9f9;
+    background-size: cover;
+    margin-bottom:0px;
+    padding-top:0px;
+}
+
+.movies_columns
+{
+    width: 1200px;
+    height:100%;
+    margin: 0 auto;
+    padding-top: 37px;
+}
+
+.favorite_films
+{
+    font-size: 36px;
+    line-height: 42px;
+    color:#333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    margin-bottom: 32px;
+    margin-top:-2px;
+    padding-top:0px;
+}
+
+.column_one,
+.column_two,
+.column_three,
+.column_four
+{
+    float:left;
+    width: 285px;
+    margin-right: 20px;
+}
+
+.column_four
+{
+    margin-right: 0px;
+}
+
+.thief_photo,
+.legenda_photo,
+.sevastopol_photo,
+.panfilovtsevs_photo
+{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color: #454545;
+    margin-bottom: 19px;
+}
+
+.thief_title,
+.legenda_title,
+.sevastopol_title,
+.panfilovtsevs_title
+{
+    font-size: 22px;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 17px;
+    /* margin-left:-2px; */
+}
+
+.thief_text,
+.legenda_text,
+.sevastopol_text,
+.panfilovtsevs_text
+{
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: 'Georgia', sans-serif;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.button_movies a
+{
+    font-size: 19px;
+    line-height: 50px;
+    font-family: 'Georgia', sans-serif;
+    text-decoration: none;
+    color:#f5f5f5;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #15a98b;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+ 
+.button_movies a:hover
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+}
+
+.end
+{
+    margin-top:50px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 60px;
+    margin-left: -10px;
+}
+
+.button
+{
+    margin: 0 auto;
+    width: 220px;
+    height: 50px;
+}
+
+.form
+{
+    width:700px;
+    margin: 0 auto; 
+}
+
+.input_list
+{
+    margin-left:79px;
+}
+
+.form_title
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing:0;
+    margin-bottom: 58px;
+    margin-left:0px;
+    margin-top:46px;
+}
+
+.line_right
+{
+    padding: 14px 0px 12px 29px;
+}
+
+.line_left
+{
+    padding: 14px 19px 12px 0px;
+}
+
+.name,
+.email_title,
+.from_title,
+.gender,
+.message
+{
+    font-size: 20px;
+    line-height: 50px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    margin-top:2px;
+    margin-bottom:-5px;
+}
+
+.star
+{
+    color:#ef2c2c;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+
+.field_name,
+.field_email,
+.field_from
+{
+    width: 521px;
+    height: 46px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+}
+
+.field_from
+{
+    cursor: pointer;
+}
+ 
+.email_title
+{
+    margin-bottom:-6px;
+    margin-top:-1px;
+}
+
+.field_email
+{
+    margin-bottom:15px;
+}
+
+.field_from
+{
+    /* width:540px; */
+    /* height:50px; */
+    margin-bottom:32px;
+    margin-top:-1px;
+}
+
+.username,
+.email_text,
+.from,
+.space_message
+{
+    font-size: 18px;
+    line-height: 32px;
+    box-sizing: border-box;
+    color: rgb(85,85,85);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-left: 17px;
+}
+
+.field_name
+{
+    margin-bottom:14px;
+}
+
+.field_from:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+ 
+.field_name:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+.field_email:hover
+{
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+}
+
+:focus 
+{ 
+    border-radius: 3px;
+    border: 2px solid #a6a6a6;
+    outline: none; 
+} 
+
+.field_from:focus
+{
+    border-color: #15a98c;
+}
+  
+.field_name:focus
+{
+    border-color: #15a98c;
+}
+
+.field_email:focus
+{
+    border-color: #15a98c;
+}
+
+select 
+{
+    padding-right: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../images/arrow_down.jpg) no-repeat 97% center;
+}
+
+.gender_male,
+.gender_female
+{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    cursor:pointer;
+}
+
+.gender_male
+{
+    padding-left:5px;
+}
+
+.usergender
+{
+    margin-top:-5px;
+}
+
+.gender_female
+{
+    margin-left:36px;
+    padding-left:3px;
+}
+
+.message_block
+{ 
+   margin-top:27px;
+}
+
+textarea 
+{
+    width: 521px;
+    height: 130px;
+    border-radius: 3px;
+    border: 2px solid #c9c9c9;
+    resize: none;
+    margin-top:-6px;
+    padding-top:16px;
+}
+ 
+.field_message
+{
+    border: 2px solid #a6a6a6;
+} 
+
+.field_message:focus
+{
+    border-color: #15a98c;
+}
+
+.button_message 
+{
+    border-radius: 5px;
+    background-color: #15a98c;
+    /*position: absolute;*/
+    width: 220px;
+    height: 50px;
+    border: 0;
+    font-size: 19px;
+    font-family: 'Georgia', sans-serif;
+    color: rgb(245,245,245);
+    line-height: 50px;
+    margin-bottom: 49px;
+    margin-top:46px;
+}
+
+.button_message:hover
+{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #098d71;
+    cursor:pointer;
+}
+
+footer
+{
+    font-size: 16px;
+    line-height: 69px;
+    color: rgb(85,85,85);
+    font-family: 'Georgia', san-serif;
+    height:70px;
+    background-color:#f5f5f5;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1223px) and (min-width: 1024px)
+{
+    
+    .background_nature
+    {
+        height: auto;
+        width: 100%
+    }
+
+    .background_photo
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .background_nature:before
+    {
+        height: auto;
+        width: 100%;
+    }
+    
+    .about_me_photo
+    {
+        width: 100%;
+    }
+
+    .correct_film
+    {
+        float: left;
+        width: 44.5%;
+        margin-bottom: 10px;
+        margin-right:10%;
+    }
+
+    .column_two,
+    .column_four
+    {
+        margin-right:0px;
+    }
+
+    .movies_columns
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .favorite_films
+    {
+        text-align: center;
+    }
+    
+    .thief_photo,
+    .legenda_photo,
+    .sevastopol_photo,
+    .panfilovtsevs_photo
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .block
+    {
+        width: 90%;
+    }
+
+    .block_one
+    {
+        width: 36%;
+        margin-left: 3%;
+    }
+    
+    .block_two
+    {
+        margin-right: 6%;
+        width: 50%;
+    }
+
+    .blockquote
+    {
+        height: auto;
+    }
+
+    .biography,
+    .my_life
+    {
+        width: 90%;
+    }
+
+    .end
+    {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)
+{
+    .top_menu
+    {
+        width: 80%;
+    } 
+    
+    .background_nature
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .background_photo
+    {
+        width: 100%;
+        height: auto;
+    }
+    
+    .background_nature:before
+    {
+        height: auto;
+        width:  100%;
+    }
+
+    .block
+    {
+        width:100%;
+    }
+
+    .masha_photo
+    {
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+    }
+
+    .about_me_photo
+    {
+        margin:0 auto;
+        height: auto;
+        width: 40%;
+        background-color: white;
+    }
+
+    .container
+    {
+        width: 100%;
+    }
+
+    .movies_columns
+    {
+        width:90%;
+        margin: 0 auto;
+    }
+
+    .correct_film
+    {
+        /* float: left; */
+        width: 45.5%;
+        margin-bottom: 10px;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+    }
+
+    .column_two, 
+    .column_four
+    {
+        margin-right: 0px;   
+    }
+    
+    .clear
+    {
+        clear: both;
+    }
+    
+    .panfilovtsevs_photo,
+    .legenda_photo,
+    .thief_photo,
+    .sevastopol_photo
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .thief_text,
+    .legenda_text,
+    .sevastopol_text,
+    .panfilovtsevs_text
+    {
+        overflow: auto;
+        text-overflow: ellipsis; 
+        width: 100%;
+    }
+
+    .biography
+    {
+        padding-bottom: 28px;
+    }
+   
+    .study_title
+    {
+        padding-bottom: 10px;
+    }
+    
+    .line_photo
+    {
+        margin-bottom: 0px;
+    }
+
+    .block_one
+    {
+        width:90%;
+    }
+
+    .block_hobby_info
+    {
+        width: auto;
+        height:  auto;
+    }
+    
+    .info,
+    .hobby
+    {
+        float:left;
+        width: 30%;
+    }
+
+    .clear
+    {
+        clear:both;
+    }
+
+    .info
+    {
+        margin-top: 45px;
+    }
+
+    .hobby
+    {
+        margin-left: 26%;
+    }
+
+    .blockquote_text,
+    .blockquote_author
+    {
+        color:black;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .block_two
+    {
+        width: 90%;
+        margin-right:3%;
+    }
+
+    .quote
+    {
+        margin-bottom: 10px;
+    }
+
+    .biography_line
+    {
+        text-align: center;
+    }
+
+    .biography
+    {
+        width: 95%;
+    }
+
+    .my_life
+    {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .blockquote
+    {
+        height: 100%;
+        width: 95%;
+    }
+
+    .study_title
+    {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .study_description
+    {
+        margin: 0 auto;
+        width: 95%;
+    }
+    
+    .clear
+    {
+        clear:both;
+    }
+    
+    .write_me_button
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .favorite_films
+    {
+        text-align: center;
+    }
+   
+    .feedback
+    {
+        width: 100%;
+    }
+
+    .study
+    {
+        width: 95%;
+    }
+
+    .end
+    {
+        margin-left: 0px;
+    }
+
+    .form
+    {
+        width: 90%;
+        margin:0 auto;
+    }
+
+    .input_list
+    {
+        margin-left: 18%;
+    }
+
+    footer
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer_label
+    {
+        width: 90%;
+        line-height: 33px;
+        padding-top:2%;
+        margin-left: 8%;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:767px)
+{
+    .background_nature
+    {
+        height:auto;
+        width: 100%;
+    }
+    
+    .background_photo
+    {
+        height:100%;
+        width: 100%;
+    }
+    
+    .background_nature:before
+    {
+        height: auto;
+    }
+    
+    .movies_columns
+    {
+        width: 90%;
+        padding-top: 3%;
+        padding-left: 2%;
+    }
+
+    .correct_film
+    {
+       float:left;
+       width: 45.53%;
+       margin-right: 8%;
+    }
+
+    .column_four,
+    .column_two
+    {
+        margin-right: 0px;
+    }
+
+    .favorite_films
+    {
+        text-align: center;
+    }
+
+    .thief_photo,
+    .legenda_photo,
+    .sevastopol_photo,
+    .panfilovtsevs_photo
+    {
+        width: 100%;
+        height: 100%;
+        max-height: 190px;
+    }
+    
+    .thief_text,
+    .legenda_text,
+    .sevastopol_text,
+    .panfilovtsevs_text 
+    {
+        margin-bottom: 15px;
+    }
+
+    .top_menu
+    {
+        width: 90%;
+    }
+
+    .block
+    {
+        width: 100%;
+    }
+
+    .blockquote_text,
+    .blockquote_author
+    {
+        color:black;
+        width: 100%;
+        text-align: center;
+    }
+
+    .quote
+    {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    
+    .biography
+    {
+        width:100%;
+    }
+    
+    .my_life
+    {
+        width:100%;
+    }
+
+    .study,
+    .study_description
+    {
+        width:100%;
+    }
+
+    .biography_title,
+    .biography_line
+    {
+        text-align: center;
+    }
+
+    .blockquote
+    {
+        height: auto;
+        width: 100%;
+    }
+
+    .write_me_button
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .line_left,
+    .line_right
+    {
+        display: none;
+    }
+
+    .block_one
+    {
+        width: 90%;
+        margin: 0 auto;
+        float:none;
+    }
+
+    .about_me_photo
+    {
+        margin:0 auto;
+    }
+
+    .feedback
+    {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer
+    {
+        height:100%;
+        width:  100%;
+    }
+
+    .footer_label
+    {
+        line-height: 25px;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        padding-left: 10%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+   
+    .form
+    {
+        width: 90%;
+        margin-left: 10%;
+    }
+   
+    .block_two
+    {
+        float:none;
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+
+    .element::-webkit-scrollbar 
+    { 
+        width: 0; 
+    }
+
+    .form_title
+    {
+        margin-bottom: 3%;
+    }
+
+    .block_hobby_info
+    {
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 15.625%;
+        margin-right: 5.125%;
+        
+    }
+
+    .input_list
+    {
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+
+    .column_two
+    {
+        margin-right: 0px;
+    }
+
+    .end
+    {
+        margin-left:0px;
+    }
+    
+}
+
+@media screen and (min-width:320px) and (max-width:639px)
+{
+    .navbar
+    {
+        /* width:100%; */
+        /* height: auto; */
+        /* margin:0 auto; */
+        display:none;
+    }
+
+    .hamburger
+    {
+        border-bottom: 17px double black;
+        border-top: 6px solid black;
+        content:"";
+        height: 5px;
+        margin: 0 auto;
+        width: 15.625%;
+        margin-top:10px;
+        margin-bottom: 10px;
+        margin-left: 38.875%;
+    }
+
+    ul.top_menu
+    {
+        width: 100%;
+        margin:0 auto;
+        height: 100px;
+        display:none;
+    }
+
+    .block
+    {
+        width: 90%;
+        margin-top: -120px;
+        margin-left:5%;
+    } 
+    
+    .block_one,
+    .block_two
+    {
+        width: 80%;
+        float:none;
+        margin: 0 auto;
+    }
+
+   
+    .background_nature
+    {
+        height:100%;
+    }
+    
+    .background_nature:before
+    {
+        height: auto;
+        width: 100%;
+        content: "";
+        background-color: black;
+        z-index: 1;
+        position: absolute;
+    }  
+
+    .background_photo
+    {
+        width: 100%;
+        height:100%;
+    }
+    
+    .about_me_photo
+    {
+        width: 60%;
+        height: auto;
+        margin:0 auto;
+        background-color:white;
+    }
+    
+    .masha_photo
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .block_hobby_info
+    {
+        margin-left: 12.5%;
+    }
+
+    .blockquote
+    {
+        height: auto;
+    }
+    
+    .blockquote_text
+    {
+        color: black;
+        text-align: center;
+    }
+    
+    .blockquote_author
+    {
+        color: black;
+        text-align: center;
+    }
+
+    .quote
+    {
+        margin-bottom: 10px;
+    }
+    
+    .biography
+    {
+        width: 100%;
+        margin-top:10%;
+    }
+
+    .biography_line
+    {
+        margin-left: -3%;
+    }
+
+    .biography_title
+    {
+        text-align: center;
+    }
+
+    .line_photo
+    {
+        margin: 10% 40% auto;
+    }
+
+    .my_life
+    {
+        width: 100%;
+    }
+    
+    .study_title
+    {
+        text-align: left;
+    }
+
+    .study
+    {
+        width: 100%;
+    }
+
+    .favorite_films
+    {
+        text-align: center;
+    }
+
+    .container
+    {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+    
+    .movies_columns
+    {
+        width: 85%;
+        height: auto;
+        margin:0 auto;
+        margin-right: 8%;
+    }
+    
+    .thief_photo,
+    .legenda_photo,
+    .sevastopol_photo,
+    .panfilovtsevs_photo
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .correct_film
+    {
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 6.875%;
+    }
+
+    .thief_text,
+    .legenda_text,
+    .sevastopol_text,
+    .panfilovtsevs_text 
+    {
+        margin-bottom: 10px;
+    }
+    
+    .end
+    {
+        margin-left: 3%;
+
+    }
+    
+    .write_me_button
+    {
+       text-align: center;
+       width: 100%;
+    }
+
+    .footer_label
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer
+    {
+        height: 100%;
+        line-height: 23px;
+        width: 100%;
+    }
+
+    .footer_label
+    {
+        padding: 3% 0% 3% 10%;
+        width: 80%;
+    }
+
+    .feedback,
+    .form
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .line_left,
+    .line_right
+    {
+        display: none;
+    }
+
+    .username, 
+    .email_text, 
+    .from, 
+    .space_message
+    {
+        width: 100%;
+    }
+
+    .field_from
+    {
+        width: 100%;
+    }
+
+    .form_title
+    {
+        margin-bottom: 5%;
+        margin-right: 7.8%;
+    }
+
+    .input_list
+    {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 7%;
+    }
+
+    .write_me
+    {
+        margin-bottom:5%;  
+    }
+
+}   
+
+   
+     
+    
+    
+  
+    
+   
